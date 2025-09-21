@@ -18,8 +18,8 @@ Sistem ini memodelkan **ruangan** beserta **meja** dan **kursi** menggunakan pri
 
 | Kelas | Deskripsi |
 |-------|-----------|
-| `Meja` | Merepresentasikan meja dengan atribut: <br>- `id: Int` → nomor identitas meja <br>- `panjang: Int` → panjang meja (cm) <br>- `lebar: Int` → lebar meja (cm) <br>- `tinggi: Int` → tinggi meja (cm) <br>- `kapasitas: Int` → jumlah orang yang dapat duduk di meja |
-| `Kursi` | Merepresentasikan kursi dengan atribut: <br>- `id: Int` → nomor identitas kursi <br>- `panjang: Int` → panjang kursi (cm) <br>- `lebar: Int` → lebar kursi (cm) <br>- `tinggi: Int` → tinggi kursi (cm) <br>- `tipe: String` → jenis kursi (misal "Kayu", "Plastik", "Empuk") |
+| `Meja` | Merepresentasikan meja dengan atribut: <br>- `panjang: Int` → panjang meja (cm) <br>- `lebar: Int` → lebar meja (cm) <br>- `tinggi: Int` → tinggi meja (cm) <br>- `kapasitas: Int` → jumlah orang yang dapat duduk di meja |
+| `Kursi` | Merepresentasikan kursi dengan atribut: <br>- `panjang: Int` → panjang kursi (cm) <br>- `lebar: Int` → lebar kursi (cm) <br>- `tinggi: Int` → tinggi kursi (cm) <br>- `tipe: String` → jenis kursi (misal "Kayu", "Plastik", "Empuk") |
 | `Ruang` | Merepresentasikan **ruangan fisik** yang dapat menampung **meja** dan **kursi**, dengan atribut: <br>- `panjang: Int` → panjang ruangan (cm) <br>- `lebar: Int` → lebar ruangan (cm) <br>- `tinggi: Int` → tinggi ruangan (cm) <br>- `viewer: Int` → jumlah layar/monitor dalam ruangan <br>- `ac: Int` → jumlah AC di ruangan <br><br>Kelas ini memiliki dua list internal: `listMeja` dan `listKursi` untuk menyimpan objek `Meja` dan `Kursi`. <br>Fungsi utama: <br>- `tambahMeja(meja: Meja)` → menambahkan meja ke ruangan <br>- `tambahKursi(kursi: Kursi)` → menambahkan kursi ke ruangan <br>- `tampilMeja()` → menampilkan semua meja dalam ruangan <br>- `tampilKursi()` → menampilkan semua kursi dalam ruangan |
 
 ---
