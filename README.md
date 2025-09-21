@@ -69,8 +69,3 @@ fun main() {
 
 ### Catatan
 - Menggunakan MutableList untuk menyimpan objek Meja dan Kursi.
-- Kelas Ruang dapat dikembangkan untuk fitur tambahan seperti:
-  - Layout ruangan otomatis
-  - Pengecekan kapasitas maksimum ruangan
-  - Pengaturan posisi meja dan kursi
-- Project ini dapat dijadikan dasar untuk simulasi pengelolaan ruang kelas, kantor, atau auditorium.
