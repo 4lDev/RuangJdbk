@@ -1,3 +1,0 @@
-class Kursi {
-    x`x`
-}
