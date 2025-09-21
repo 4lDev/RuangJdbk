@@ -19,7 +19,7 @@ class Ruang(
     }
 
     fun tampilMeja() {
-        println("Daftar meja dalam ruangan.Ruang:")
+        println("Daftar meja dalam ruangan:")
         listMeja.forEach { println(it) }
     }
 
@@ -34,10 +34,10 @@ fun main() {
     val ruang = Ruang(500, 400, 300, 2, 1)
 
     // tambah meja
-    ruang.tambahMeja(Meja(120, 60, 75, 20,4))
+    ruang.tambahMeja(Meja(120, 60, 75, 20))
 
     // tambah kursi
-    ruang.tambahKursi(Kursi(40, 40, 90, 30, "Kayu"))
+    ruang.tambahKursi(Kursi(40, 40, 90, "Kayu"))
 
     // Tampilkan Hasil
     ruang.tampilMeja()
