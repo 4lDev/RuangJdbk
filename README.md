@@ -33,7 +33,7 @@ Sistem ini memodelkan **ruangan** beserta **meja** dan **kursi** menggunakan pri
 
 ---
 
-## 📝 UML Diagram
+## UML Diagram
 
 Berikut diagram UML dari project:
 
