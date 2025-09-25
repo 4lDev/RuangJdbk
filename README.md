@@ -1,5 +1,14 @@
 # Ruangan (Kotlin)
 
+---
+
+## Nama Kelompok :
+Albet Michael Kristian - 235314177
+
+Yosafat Mauli Manurung - 235314162
+
+---
+
 Sistem ini memodelkan **ruangan** beserta **meja** dan **kursi** menggunakan prinsip **Object-Oriented Programming (OOP)** di Kotlin. Project ini cocok untuk simulasi pengelolaan ruang belajar, kantor, auditorium, atau ruang pertemuan.  
 
 ---
